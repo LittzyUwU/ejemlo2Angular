@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+.row{
+    display: flex;
+}
+
+button{
+    background-color: purple;
+    margin-right: 1rem;
+}

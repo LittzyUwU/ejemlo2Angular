@@ -3,8 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { UtlModule } from './utl/utl.module';
+import { MaterialModule } from './material/material.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,11 @@ import { UtlModule } from './utl/utl.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    UtlModule
+    UtlModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MaterialModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
